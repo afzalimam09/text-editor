@@ -1,0 +1,112 @@
+html {
+    font-family: "Helevetica", sans-serif;
+  }
+  
+  body {
+    color: #333;
+    font-weight: 100;
+    max-width: 50em;
+    margin: 0 auto;
+    background-color: beige;
+  }
+  
+  div:focus {
+    outline: none;
+  }
+  
+  #heading {
+    margin-top: 25px;
+    font-size: 30px;
+    padding: 15px;
+    border: 2px solid rgb(0, 204, 255);
+    border-radius: 10px;
+  }
+  
+  #content {
+    padding: 5px 10px;
+    font-size: 18px;
+    min-height: 300px;
+  }
+
+  .topheading {
+    text-align: center;
+    margin-bottom: 20px;
+    /* background-color: beige; */
+    padding: 20px;
+    border-radius: 5px;
+  }
+
+  .editingButton {
+      /* margin: 15px 3px; */
+      text-align: center;
+      background-color: rgb(212, 239, 255);
+      padding: 10px 3px;
+      border-radius: 10px;
+  }
+
+  button {
+      padding: 5px 20px;
+      margin: 10px 5px;
+      border: none;
+      border-radius: 4px;
+      background-color: rgb(0, 162, 255);
+      color: white;
+      font-size: 15px;
+      cursor: pointer;
+  }
+
+  .mainContentSection {
+    border-radius: 10px;
+    border: 1px solid rgb(0, 204, 255);
+    margin-top: 20px;
+  }
+
+  .container {
+      margin: 40px 10px;
+  }
+
+  hr {
+    border: dotted #66BFBF 3px;
+    border-bottom: none;
+    width: 30%;
+    margin: 20px auto;
+  }
+
+  .save {
+      background-color: green;
+  }
+
+  .clearText {
+      background-color: red;
+  }
+
+  .buttonPressed {
+      opacity: 0.4;
+      color: black;
+  }
+
+  .copyright {
+    color: black;
+    margin: 20px auto 10px;
+}
+
+.footer-link {
+    text-decoration: none;
+    padding: 5px 20px;
+    margin: 10px 5px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(0, 162, 255);
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.footer-link:hover {
+    color: rgb(0, 0, 0);
+    opacity: 0.7;
+}
+
+.bottom-container {
+    text-align: center;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Editor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <!-- Top heading section -->
+        <div>
+            <h1 class="topheading">Simple Text Editor</h1>
+        </div>
+    
+        <!-- Note title content section -->
+        <div id="heading" contenteditable="true" ></div>
+    
+    
+        <!-- Main Content Section with tools  -->
+        <div class="mainContentSection">
+    
+            <!-- Text editor tools section  -->
+            <div class="editingButton">
+                <button value="0" onclick="f1()">Bold</button>
+                <button value="1" onclick="f2()">Italic</button>
+                <button value="2" onclick="f3()">Upper Case</button>
+                <button value="3" onclick="f4()">Lower Case</button>
+                <button value="4" onclick="f5()">Capitalize</button>
+                <button value="5" onclick="f6()">Right Align</button>
+                <button value="6" onclick="f7()">Left Align</button>
+                <button value="7" onclick="f8()">Center Align</button>
+                <button value="8" onclick="f10()">Clear Format</button>
+                <button value="9" onclick="f9()" class="clearText">Clear Text</button>
+                <button value="10" onclick="f11()" class="save">Save</button>
+            </div>
+    
+            <hr>
+    
+    
+            <!-- text section  -->
+            <div id="content" contenteditable="true"></div>
+    
+        </div>
+    </div>
+
+    <div class="bottom-container">
+        <a class="footer-link" href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+        <a class="footer-link" href="https://github.com/afzalimamias/" target="_blank">GitHub</a>
+        <a class="footer-link" href="https://codewithimam.blogspot.com/" target="_blank" >Website</a>
+        <p class="copyright">© 2021 Afzal Imam.</p>
+      </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
